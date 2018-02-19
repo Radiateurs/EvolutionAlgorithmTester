@@ -5,18 +5,7 @@
  *
  */
 
-#include	<iostream>
 
-#include	"Population.hh"
-#include	"DeveloppingAgent.hh"
-
-int		main(int argc, char *argv[])
-{
-  Population<DeveloppingAgent>	pop(10);
-  Agent		ag = DeveloppingAgent(1);
-  
-  (void)argc;
-  (void)argv;
   std::cout << "Initiate... ";
   pop.initiate();
   std::cout << "Done!" << std::endl << "Simulating:" << std::endl;
